@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jd-cart" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jd-cart/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jd-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jd-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jd-manage" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jd-manage/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jd-sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jd-sso/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jd-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jd-web/src/main/java" charset="UTF-8" />
+  </component>
+</project>

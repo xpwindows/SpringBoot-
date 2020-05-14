@@ -1,0 +1,5 @@
+com\jd\testCluster.class
+com\jd\TestObjectToJson.class
+com\jd\testSentinel.class
+com\jd\TestRedis.class
+com\jd\testShards.class

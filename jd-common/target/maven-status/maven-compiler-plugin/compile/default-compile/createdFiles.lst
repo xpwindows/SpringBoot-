@@ -1,0 +1,14 @@
+com\jd\service\DubboUserService.class
+com\jd\pojo\Cart.class
+com\jd\config\RedisConfig.class
+com\jd\anno\Cache.class
+com\jd\vo\SysResult.class
+com\jd\pojo\ItemCat.class
+com\jd\aop\RedisAspect.class
+com\jd\util\ObjectMapperUtil.class
+com\jd\enu\KEY_ENUM.class
+com\jd\pojo\ItemDesc.class
+com\jd\pojo\User.class
+com\jd\pojo\BasePojo.class
+com\jd\service\DubboCartService.class
+com\jd\pojo\Item.class

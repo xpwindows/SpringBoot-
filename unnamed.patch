@@ -1,0 +1,459 @@
+Index: .idea/.idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.idea/modules.xml	(date 1588213147347)
++++ .idea/.idea/modules.xml	(date 1588213147347)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/.idea.iml" filepath="$PROJECT_DIR$/.idea/.idea.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/$PRODUCT_WORKSPACE_FILE$
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/$PRODUCT_WORKSPACE_FILE$	(date 1582010322368)
++++ .idea/$PRODUCT_WORKSPACE_FILE$	(date 1582010322368)
+@@ -0,0 +1,19 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="masterDetails">
++    <states>
++      <state key="ProjectJDKs.UI">
++        <settings>
++          <last-edited>1.8</last-edited>
++          <splitter-proportions>
++            <option name="proportions">
++              <list>
++                <option value="0.2" />
++              </list>
++            </option>
++          </splitter-proportions>
++        </settings>
++      </state>
++    </states>
++  </component>
++</project>
+\ No newline at end of file
+Index: jd-common/src/main/java/com/jd/enu/KEY_ENUM.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- jd-common/src/main/java/com/jd/enu/KEY_ENUM.java	(date 1585147688884)
++++ jd-common/src/main/java/com/jd/enu/KEY_ENUM.java	(date 1585147688884)
+@@ -0,0 +1,6 @@
++package com.jd.enu;
++
++public enum KEY_ENUM {
++    AUTO,	//key自动生成 方法名+第一个参数
++    EMPTY;	//使用自己的key
++}
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(date 1588216478497)
++++ .idea/misc.xml	(date 1588216478497)
+@@ -0,0 +1,25 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="FrameworkDetectionExcludesConfiguration">
++    <file type="web" url="file://$PROJECT_DIR$/jd-manage" />
++  </component>
++  <component name="JavaScriptSettings">
++    <option name="languageLevel" value="ES6" />
++  </component>
++  <component name="MavenProjectsManager">
++    <option name="originalFiles">
++      <list>
++        <option value="$PROJECT_DIR$/pom.xml" />
++        <option value="$PROJECT_DIR$/jd-sso/pom.xml" />
++        <option value="$PROJECT_DIR$/jd-cart/pom.xml" />
++        <option value="$PROJECT_DIR$/jd-common/pom.xml" />
++        <option value="$PROJECT_DIR$/jd-manage/pom.xml" />
++        <option value="$PROJECT_DIR$/jd-web/pom.xml" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/compiler.xml	(date 1589417700874)
++++ .idea/compiler.xml	(date 1589417700874)
+@@ -0,0 +1,51 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <annotationProcessing>
++      <profile default="true" name="Default" enabled="true" />
++      <profile name="Maven default annotation processors profile" enabled="true">
++        <sourceOutputDir name="target/generated-sources/annotations" />
++        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
++        <outputRelativeToContentRoot value="true" />
++        <module name="jd-manage" />
++        <module name="jdcommon" />
++        <module name="jdcart" />
++        <module name="jd-cart" />
++        <module name="jd-sso" />
++        <module name="jd-Cart" />
++        <module name="jd-web" />
++        <module name="jd-common" />
++        <module name="jdmanage" />
++      </profile>
++    </annotationProcessing>
++    <bytecodeTargetLevel>
++      <module name="jdsso" target="1.8" />
++      <module name="jt" target="1.8" />
++      <module name="jt (1)" target="1.8" />
++      <module name="jt (2)" target="1.8" />
++      <module name="jt-common" target="1.8" />
++      <module name="jt-common (1)" target="1.8" />
++      <module name="jt-manage" target="1.8" />
++      <module name="jt-manage (1)" target="1.8" />
++    </bytecodeTargetLevel>
++  </component>
++  <component name="JavacSettings">
++    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
++      <module name="jd" options="-parameters" />
++      <module name="jd-Cart" options="-parameters" />
++      <module name="jd-cart" options="-parameters" />
++      <module name="jd-common" options="-parameters" />
++      <module name="jd-manage" options="-parameters" />
++      <module name="jd-sso" options="-parameters" />
++      <module name="jd-web" options="-parameters" />
++      <module name="jdcart" options="-parameters" />
++      <module name="jdcommon" options="-parameters" />
++      <module name="jdmanage" options="-parameters" />
++      <module name="jdsso" options="-parameters" />
++      <module name="jt-common" options="-parameters" />
++      <module name="jt-common (1)" options="-parameters" />
++      <module name="jt-manage" options="-parameters" />
++      <module name="jt-manage (1)" options="-parameters" />
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: jd-manage/src/main/resources/properties/image.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>GBK
+===================================================================
+--- jd-manage/src/main/resources/properties/image.properties	(date 1583915640053)
++++ jd-manage/src/main/resources/properties/image.properties	(date 1583915640053)
+@@ -0,0 +1,2 @@
++image.localDirPath=D:/1-JT/images/
++image.urlDirPath=http://image.jd.com/
+\ No newline at end of file
+Index: .idea/jd.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/jd.iml	(date 1588229238196)
++++ .idea/jd.iml	(date 1588229238196)
+@@ -0,0 +1,15 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="FacetManager">
++    <facet type="web" name="Web">
++      <configuration>
++        <descriptors>
++          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/jd-web/WEB-INF/web.xml" />
++        </descriptors>
++        <webroots>
++          <root url="file://$MODULE_DIR$/jd-web" relative="/" />
++        </webroots>
++      </configuration>
++    </facet>
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.gitignore	(date 1588212834529)
++++ .idea/.gitignore	(date 1588212834529)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: .idea/jarRepositories.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/jarRepositories.xml	(date 1588216374617)
++++ .idea/jarRepositories.xml	(date 1588216374617)
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RemoteRepositoriesConfiguration">
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Maven Central repository" />
++      <option name="url" value="https://repo1.maven.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Central Repository" />
++      <option name="url" value="http://maven.aliyun.com/nexus/content/repositories/central/" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="jboss.community" />
++      <option name="name" value="JBoss Community repository" />
++      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
++    </remote-repository>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/encodings.xml	(date 1588216478509)
++++ .idea/encodings.xml	(date 1588216478509)
+@@ -0,0 +1,16 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding">
++    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/jd-cart" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/jd-cart/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/jd-common" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/jd-common/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/jd-manage" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/jd-manage/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/jd-sso" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/jd-sso/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/jd-web" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/jd-web/src/main/java" charset="UTF-8" />
++  </component>
++</project>
+\ No newline at end of file
+Index: jd-web/jd-web.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- jd-web/jd-web.iml	(date 1588229238316)
++++ jd-web/jd-web.iml	(date 1588229238316)
+@@ -0,0 +1,19 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module version="4">
++  <component name="FacetManager">
++    <facet type="web" name="Web2">
++      <configuration>
++        <descriptors>
++          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/WEB-INF/web.xml" />
++        </descriptors>
++        <webroots>
++          <root url="file://$MODULE_DIR$" relative="/" />
++        </webroots>
++        <sourceRoots>
++          <root url="file://$MODULE_DIR$/src/main/java" />
++          <root url="file://$MODULE_DIR$/src/main/resources" />
++        </sourceRoots>
++      </configuration>
++    </facet>
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/inspectionProfiles/Project_Default.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/inspectionProfiles/Project_Default.xml	(date 1582033779370)
++++ .idea/inspectionProfiles/Project_Default.xml	(date 1582033779370)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <profile version="1.0">
++    <option name="myName" value="Project Default" />
++    <inspection_tool class="SpringJavaInjectionPointsAutowiringInspection" enabled="true" level="WARNING" enabled_by_default="true" />
++  </profile>
++</component>
+\ No newline at end of file
+Index: jd-manage/jdmanage.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- jd-manage/jdmanage.iml	(date 1582010765683)
++++ jd-manage/jdmanage.iml	(date 1582010765683)
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4" />
+\ No newline at end of file
+Index: jd-common/jdcommon.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- jd-common/jdcommon.iml	(date 1582010765644)
++++ jd-common/jdcommon.iml	(date 1582010765644)
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4" />
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 1589336101444)
++++ .idea/vcs.xml	(date 1589336101444)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: jd.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- jd.iml	(date 1583128100473)
++++ jd.iml	(date 1583128100473)
+@@ -0,0 +1,19 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="FacetManager">
++    <facet type="web" name="Web2">
++      <configuration>
++        <descriptors>
++          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/jt-manage/src/main/WEB-INF/web.xml" />
++        </descriptors>
++        <webroots>
++          <root url="file://$MODULE_DIR$/jt-manage/src/main" relative="/" />
++        </webroots>
++        <sourceRoots>
++          <root url="file://$MODULE_DIR$/src/main/java" />
++          <root url="file://$MODULE_DIR$/src/main/resources" />
++        </sourceRoots>
++      </configuration>
++    </facet>
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/.name
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.name	(date 1588216478410)
++++ .idea/.name	(date 1588216478410)
+@@ -0,0 +1,1 @@
++jd-web
+\ No newline at end of file
+Index: .idea/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.idea/misc.xml	(date 1588213147318)
++++ .idea/.idea/misc.xml	(date 1588213147318)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.idea/workspace.xml	(date 1588213147256)
++++ .idea/.idea/workspace.xml	(date 1588213147256)
+@@ -0,0 +1,46 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="4e321c50-7d63-42ad-bd95-5519e7cc698d" name="Default Changelist" comment="" />
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="ProjectId" id="1bF1eBYUmBTPJs5Qbdjmy2IGofp" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent">
++    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
++    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
++    <property name="project.structure.last.edited" value="Project" />
++    <property name="project.structure.proportion" value="0.0" />
++    <property name="project.structure.side.proportion" value="0.0" />
++  </component>
++  <component name="SvnConfiguration">
++    <configuration />
++  </component>
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="4e321c50-7d63-42ad-bd95-5519e7cc698d" name="Default Changelist" comment="" />
++      <created>1588213120236</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1588213120236</updated>
++    </task>
++    <servers />
++  </component>
++  <component name="WindowStateProjectService">
++    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1588213145547">
++      <screen x="0" y="0" width="1920" height="1040" />
++    </state>
++    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588213145547" />
++    <state x="440" y="94" key="SettingsEditor" timestamp="1588213127300">
++      <screen x="0" y="0" width="1920" height="1040" />
++    </state>
++    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588213127300" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.idea/.idea.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.idea/.idea.iml	(date 1588213147246)
++++ .idea/.idea/.idea.iml	(date 1588213147246)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file

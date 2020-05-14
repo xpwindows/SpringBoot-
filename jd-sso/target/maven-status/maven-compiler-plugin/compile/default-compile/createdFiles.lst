@@ -1,0 +1,6 @@
+com\jd\service\UserServiceImpl.class
+com\jd\SpringBootRun.class
+com\jd\mapper\UserMapper.class
+com\jd\service\UserService.class
+com\jd\controller\UserController.class
+com\jd\service\DubboUserServiceImpl.class
